@@ -1,1 +1,3 @@
-collectionName = "graph_1"
+inputCollectionName = "peterson"
+intermediateCollectionName = "intermediatePeterson"
+outputCollectionName = "c5"
