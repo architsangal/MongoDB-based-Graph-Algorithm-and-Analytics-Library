@@ -10,4 +10,5 @@ $ mongosh ./scripts/nameOfDB.js ./scripts/subgraphInducedOneVertexVariable.js ./
 $ mongosh ./scripts/nameOfDB.js ./scripts/subgraphInducedMultipleVertexVariable.js ./scripts/subgraphInducedMultipleVertex.js
 $ mongosh ./scripts/nameOfDB.js ./scripts/subgraphOneEdgeVariable.js ./scripts/subgraphOneEdge.js
 $ mongosh ./scripts/nameOfDB.js ./scripts/subgraphMultipleEdgeVariable.js ./scripts/subgraphMultipleEdge.js
+$ mongosh ./scripts/nameOfDB.js ./scripts/minorOneEdgeVariable.js ./scripts/minorOneEdge.js
 ```
