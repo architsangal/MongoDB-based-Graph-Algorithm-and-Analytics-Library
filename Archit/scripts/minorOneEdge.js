@@ -54,6 +54,7 @@ if(db.getCollection(inputCollectionName).findOne(edge))
     outputCollectionName = inputCollectionName
     load("scripts/subgraphInducedOneVertex.js")
 
+    // union of two collections
     db.getCollection(outputCollectionName).aggregate([
         { $project: { _id: 0 } },
         { $unionWith: { coll: tempIntermediateCollectionName, pipeline: [{ $project: { _id: 0 } }] } },
