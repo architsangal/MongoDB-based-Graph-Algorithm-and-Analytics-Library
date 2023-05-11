@@ -1,3 +1,4 @@
 inputCollectionName = "petersen"
 intermediateCollectionName = "intermediatepetersen"
-outputCollectionName = "c5"
+outputCollectionName = "petersenMinusVertex1"
+vertex = 1
