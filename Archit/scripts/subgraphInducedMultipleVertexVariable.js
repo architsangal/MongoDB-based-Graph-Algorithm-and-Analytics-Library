@@ -1,4 +1,5 @@
+// inputCollectionName and outputCollectionName need to be same
 inputCollectionName = "peterson"
-intermediateCollectionName = "intermediatePeterson"
 outputCollectionName = "peterson"
+intermediateCollectionName = "intermediatePeterson"
 vertices = [6,7,8,9,10]
