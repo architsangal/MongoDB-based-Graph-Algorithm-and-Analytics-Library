@@ -4,7 +4,7 @@ function generateEdge( a , b , c) {
     return { u:a, v:b , w:c};
 }
 
-db.getCollection("peterson").insertMany( [
+db.getCollection("petersen").insertMany( [
     generateEdge( 1 , 2 , 1),
     generateEdge( 2 , 1 , 1),
 

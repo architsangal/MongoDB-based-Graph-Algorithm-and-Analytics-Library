@@ -1,2 +1,2 @@
-collectionFrom = "peterson"
-collectionTo = "peterson1"
+collectionFrom = "petersen"
+collectionTo = "petersen1"

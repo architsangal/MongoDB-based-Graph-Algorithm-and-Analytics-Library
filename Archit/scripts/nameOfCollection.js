@@ -1,3 +1,3 @@
-inputCollectionName = "peterson"
-intermediateCollectionName = "intermediatePeterson"
+inputCollectionName = "petersen"
+intermediateCollectionName = "intermediatepetersen"
 outputCollectionName = "c5"

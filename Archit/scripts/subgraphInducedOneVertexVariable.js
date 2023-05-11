@@ -1,4 +1,4 @@
-inputCollectionName = "peterson"
-intermediateCollectionName = "intermediatePeterson"
-outputCollectionName = "petersonMinusVertex1"
+inputCollectionName = "petersen"
+intermediateCollectionName = "intermediatepetersen"
+outputCollectionName = "petersenMinusVertex1"
 vertex = 1
