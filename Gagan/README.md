@@ -1,5 +1,10 @@
 commands - 
 
+To create a database:
+```
+mongosh ./scripts/createDB.js
+```
+
 To generate random graphs:
 ```
 npm install
@@ -14,7 +19,14 @@ mongoimport --db dgraphs --collection graph5 --file directed/graph5.json --jsonA
 mongoimport --db ugraphs --collection graph5 --file undirected/graph5.json --jsonArray
 ```
 
-To create a database:
+The input.js file specifices the db name, input graph name, output graph name
+
+To convert Edge list to adjacency list:
 ```
-mongosh ./scripts/createDB.js
+mongosh ./scripts/input.js ./scripts/edgeToAdjacency.js
+```
+
+To convert Adjacency list to edge list:
+```
+mongosh ./scripts/input.js ./scripts/adjacenyToEdge.js
 ```
