@@ -36,3 +36,21 @@ To convert Undirected edge list to Directed edge list:
 ```
 mongosh ./scripts/input.js ./scripts/undirectedToDirected.js
 ```
+
+To remove self loops:
+```
+mongosh ./scripts/input.js ./scripts/removeSelfLoops.js
+```
+
+
+
+To remove mutli edges and replace the edge weight by the sum:
+```
+mongosh ./scripts/input.js ./scripts/removeMultiEdges.js
+```
+
+To export a graph collection to json file:
+
+```
+mongoexport --db graphs --collection graph10 --out output/graph10.json --jsonArray
+```
