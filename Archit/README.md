@@ -13,4 +13,5 @@ $ mongosh ./scripts/nameOfDB.js ./scripts/subgraphOneEdgeVariable.js ./scripts/s
 $ mongosh ./scripts/nameOfDB.js ./scripts/subgraphMultipleEdgeVariable.js ./scripts/subgraphMultipleEdge.js
 $ mongosh ./scripts/nameOfDB.js ./scripts/minorOneEdgeVariable.js ./scripts/minorOneEdge.js
 $ mongosh ./scripts/nameOfDB.js ./scripts/topologicalMinorOneEdgeVariable.js ./scripts/topologicalMinorOneEdge.js
+$ mongosh ./scripts/nameOfDB.js ./scripts/componentsOfGraphVariable.js ./scripts/componentsOfGraph.js
 ```
