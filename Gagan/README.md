@@ -54,3 +54,14 @@ To export a graph collection to json file:
 ```
 mongoexport --db graphs --collection graph10 --out output/graph10.json --jsonArray
 ```
+
+To analyse your output graph on the terminal simply change the input json path in analyseOutputGraph.js and run:
+```
+node analyseOutputGraph.js
+```
+
+To visualize any graph.json file in the browser, change  the input json path in analysisScript.js and from the directory of the file run:
+```
+http-server -p 3000
+```
+This will start a http server at port 3000 where you can click on the html file in the browser and it will bring up the visualization.
