@@ -1,4 +1,4 @@
-inputCollectionName = "c5"
+inputCollectionName = "graph10"
 intermediateCollectionName = "intermediate_c5"
-outputCollectionName = "c5_TopologicalMinor"
+outputCollectionName = "graph10"
 edge = {u: 1, v: 2, w: 1}

@@ -1,3 +1,3 @@
-collection1 = "c5"
-collection2 = "c5_plus5"
+collection1 = "graph1000"
+collection2 = "graph1000"
 outputCollectionName = "mergedC5"

@@ -50,7 +50,7 @@ mongosh ./scripts/input.js ./scripts/adjacenyToEdge.js
 ```
 - To convert Undirected edge list to Directed edge list:
 ```
-mongosh ./scripts/input.js ./scripts/directedToUndirected.js
+mongosh ./scripts/input.js ./scripts/undirectedToDirected.js
 ```
 - To remove self loops:
 ```

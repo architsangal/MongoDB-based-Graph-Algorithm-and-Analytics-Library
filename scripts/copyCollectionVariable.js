@@ -1,2 +1,2 @@
-collectionFrom = "petersen1"
-collectionTo = "petersen"
+collectionFrom = "graph1000"
+collectionTo = "graph1000_1"
