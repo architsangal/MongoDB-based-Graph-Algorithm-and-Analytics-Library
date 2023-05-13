@@ -60,33 +60,36 @@ mongosh ./scripts/input.js ./scripts/removeSelfLoops.js
 ```
 mongosh ./scripts/input.js ./scripts/removeMultiEdges.js
 ```
-- To get a induced subgraph with one vertex deleted
+- To get a induced subgraph with one vertex deleted:
 ```
 $ mongosh ./scripts/nameOfDB.js ./scripts/subgraphInducedOneVertexVariable.js ./scripts/subgraphInducedOneVertex.js
 ```
-- To get a induced subgraph with multiple vertices deleted
+- To get a induced subgraph with multiple vertices deleted:
 ```
 $ mongosh ./scripts/nameOfDB.js ./scripts/subgraphInducedMultipleVertexVariable.js ./scripts/subgraphInducedMultipleVertex.js
 ```
-- To get a subgraph with one edge deleted
+- To get a subgraph with one edge deleted:
 ```
 $ mongosh ./scripts/nameOfDB.js ./scripts/subgraphOneEdgeVariable.js ./scripts/subgraphOneEdge.js
 ```
-- To get a subgraph with multiple edges deleted
+- To get a subgraph with multiple edges deleted:
 ```
 $ mongosh ./scripts/nameOfDB.js ./scripts/subgraphMultipleEdgeVariable.js ./scripts/subgraphMultipleEdge.js
 ```
-- To get a minor of a graph with one edge contracted
+- To get a minor of a graph with one edge contracted:
 ```
 $ mongosh ./scripts/nameOfDB.js ./scripts/topologicalMinorOneEdgeVariable.js ./scripts/topologicalMinorOneEdge.js
 ```
-- To get a topological minor of a graph
+- To get a topological minor of a graph:
 ```
 $ mongosh ./scripts/nameOfDB.js ./scripts/minorOneEdgeVariable.js ./scripts/minorOneEdge.js
 ```
-- To get vertices of components of a graph
+- To get vertices of components of a graph:
 ```
 $ mongosh ./scripts/nameOfDB.js ./scripts/componentsOfGraphVariable.js ./scripts/componentsOfGraph.js
+```
+- To get the Weakly connected components of a graph:
+```
 $ mongosh ./nameOfDB.js ./wccVariable.js ./wcc.js
 ```
 - To export a graph collection to json file:
