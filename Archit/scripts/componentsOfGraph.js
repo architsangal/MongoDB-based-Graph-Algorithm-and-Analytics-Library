@@ -46,7 +46,7 @@ db.getCollection(intermediateCollection).aggregate([
          * restrictSearchWithMatch: Optional query.
          */
         {
-          from: "intermediate_2_C5",
+          from: intermediateCollection,
           startWith: "$_id",
           connectFromField: "_id",
           connectToField: "v",
