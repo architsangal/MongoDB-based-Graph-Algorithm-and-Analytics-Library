@@ -3,6 +3,8 @@
 ## Demo Video
 Video - [https://youtu.be/aKORL37PY7c](https://youtu.be/aKORL37PY7c)
 
+You may want to slow down the video speed to 0.75x for more clarity.
+
 ## To Generate Random Graphs
 - make GenerationAndAnalysisOfGraphs your working directory
 - run the following commands
